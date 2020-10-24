@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<!-- the beginning is just copy and pasted from the other doc to distinguish this as my site and similar styling-->
+
+<head>
+  <title> Sustainability </title>
+  <meta name="author" content="Nicole Men">
+  <meta name="description" content="Sustainability">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+
+  <link rel="stylesheet" href="FinalSite.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body class="body">
+
+  <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+    <img id="pic" src="globe.jpg" alt="Globe" class="rounded-circle" width=50px height=50px>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link text-white" href="FinalSite.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="Action.html">Action</a>
+        </li>
+
+      </ul>
+    </div>
+
+  </nav>
+  <!-- I decided to try and keep the formatting on this page similar to the main (F-formatting) for consistency
+    this page was also meant to be more interactive than informative-->
+  <div class="action" id="action">
+    <h2 class="heading"> TAKE ACTION IN YOUR DAILY LIFE </h2>
+    <p> There are a ton of easy ways to do your part in reducing your carbon footprint! Here are some resources! </p>
+    <br />
+
+    <h3 class="heading"> CHECKLIST </h3>
+    <p>You can check off which of these you've already completed, and hopefully find some inspiration for more habits you can implement into your life. </p>
+    <!-- checklist to keep track of what each user may have done for this cause-->
+    <form>
+      <div class="form-check mb-2 mr-sm-2">
+        <label class="form-check-label"><input type="checkbox" class="form-check-input"> Educate yourself on the climate crisis via current news</label><br>
+        <label class="form-check-label"><input type="checkbox" class="form-check-input"> Start growing your own garden</label><br />
+        <label class="form-check-label"><input type="checkbox" class="form-check-input"> Compost your food scraps</label><br />
+        <label class="form-check-label"><input type="checkbox" class="form-check-input">Invest in <em>reusable</em> materials (i.e. glass and metal) instead of plastic</label><br />
+        <label class="form-check-label"><input type="checkbox" class="form-check-input"> Look to <em>renewable</em> energy options (i.e. solar power)</label><br />
+        <label class="form-check-label"><input type="checkbox" class="form-check-input"> Walking or biking as an alternative to driving</label><br />
+        <label class="form-check-label"><input type="checkbox" class="form-check-input"> Using a sewing machine to mend your clothes </label><br />
+        <label class="form-check-label"><input type="checkbox" class="form-check-input"> Reduce your meat intake</label><br />
+        <label class="form-check-label"><input type="checkbox" class="form-check-input"> Buy vegetables and fruits when they are in-season </label><br />
+        <label class="form-check-label"><input type="checkbox" class="form-check-input"> Shop at your local grocer</label><br />
+        <label class="form-check-label"><input type="checkbox" class="form-check-input"> Care for house plants</label><br />
+        <label class="form-check-label"><input type="checkbox" class="form-check-input"> Driving an electrical car</label><br />
+        <label class="form-check-label"><input type="checkbox" class="form-check-input"> Taking electronic notes instead of wasting paper</label><br />
+        <label class="form-check-label"><input type="checkbox" class="form-check-input"> Spending less time showering</label><br />
+        <label class="form-check-label"><input type="checkbox" class="form-check-input"> Doing your laundry in cold water</label><br />
+        <label class="form-check-label"><input type="checkbox" class="form-check-input"> Hanging your clothes to air-dry</label><br />
+      </div>
+    </form>
+    <br />
+    <h3 class="heading"> ORGANIZATIONS </h3>
+    <p> These are only two of several important organizations that have made important impacts on society. Checking out their websites will give you some clues about how else to get involved!</p>
+    <!-- card deck seemed like a more interactive way for the user to get involved (more color and shape as opposed to the original table format) -->
+    <div class="card-deck">
+      <div class="card">
+        <!-- for the most part, the card deck is responsive (for large, medium, and small devices) -->
+        <img class="card-img-top img-fluid" src="CAC.png" alt="Climate Action Campaign" id="CAC">
+        <div class="card-body">
+          <h4 class="card-title">Climate Action Campaign</h4>
+          <p class="card-text">The Climate Action Campaign is a local San Diego organization, started by politician Nicole Capretz.
+            She's the reason behind the adoption of eight 100% clean energy plans, and is trying to make a bigger impact across all of SoCal.</p>
+          <!-- included contact info in order for people to get involved -->
+          <a href="https://www.climateactioncampaign.org/" class="btn btn-primary bg-success">Go to Website</a>
+          <a href="mailto:info@climateactioncampaign.org" class="btn btn-primary bg-success">Contact Them</a>
+        </div>
+      </div>
+      <div class="card">
+        <img class="card-img-top img-fluid" src="FfF.png" alt="Fridays for Future" id="FfF">
+        <div class="card-body">
+          <h4 class="card-title">Fridays for Future</h4>
+          <p class="card-text">Fridays for Future is a global organization, started by activist Greta Thunberg.
+            Her strikes gave her worldwide recognition, which she's used to bring more attention to the problem of climate change.</p>
+          <a href="https://fridaysforfuture.org/" class="btn btn-primary bg-success">Go to Website</a>
+          <a href="mailto:info@fridaysforfutureusa.org" class="btn btn-primary bg-success">Contact Them</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>

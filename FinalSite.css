@@ -1,0 +1,41 @@
+/* external CSS style sheet */
+.body {
+  background-color: black;
+  font-size: 20px;
+  color: white;
+  font-family: 'Courier'
+}
+
+.navbar {
+  background-color: #070707;
+}
+
+.intro, .info, .action {
+  margin: 80px;
+  padding-left: 60px;
+  padding-right: 60px
+}
+
+.heading {
+  color: #4ff4a2;
+}
+
+#CAC {
+  height: 350px;
+  width: 625px;
+}
+
+#FAF {
+  height: 350px;
+  width: 645px;
+}
+
+#h1 {
+  padding-top: 70px;
+  padding: 50px;
+  text-align: center;
+}
+
+.card-title, .card-text {
+  color: black;
+}
