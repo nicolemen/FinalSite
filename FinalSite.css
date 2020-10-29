@@ -20,6 +20,13 @@
   color: #4ff4a2;
 }
 
+.nav-item{
+  margin-left: 80px;
+  margin-right: 80px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 #CAC {
   height: 350px;
   width: 625px;
